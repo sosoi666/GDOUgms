@@ -1,0 +1,47 @@
+.register-wrap{
+    /*width: 2000px;*/
+    margin: 0 auto;
+    margin-top: 72px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 61px;
+}
+.register-title{
+    margin-bottom: 40px;
+}
+#register-form > .form-group input{
+    width: 200px;
+}
+.form-group .input-group > #validateCode{
+    width: 75px;
+}
+/*出错时，输入框的样式*/
+input.error{
+    border: 1px solid red;
+}
+/*出错时，给出的提示信息的样式    默认是出现在输入框的右边，就是他的相邻元素*/
+label.error{
+    color: red;
+    font-weight: normal;
+}
+#table  tr > td{
+    padding-right: 15px;
+}
+#table  tr > td:nth-child(1){
+    width: 118px;
+}
+#table  tr > td:nth-child(2){
+    width: 118px;
+}
+#table  tr > td:nth-child(3){
+    width: 118px;
+}
+#table  tr > td:nth-child(4){
+    width: 200px;
+}
+#table  tr > td:nth-child(5){
+    width: 118px;
+}
+#table  tr > td:nth-child(6){
+    width: 500px;
+}

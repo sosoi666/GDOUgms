@@ -1,0 +1,22 @@
+.login-wrap{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 128px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 98px;
+}
+.login-des{
+    width: 252px;
+    height: 34px;
+    text-align: center;
+}
+/*出错时，输入框的样式*/
+input.error{
+    border: 1px solid red;
+}
+/*出错时，给出的提示信息的样式    默认是出现在输入框的右边，就是他的相邻元素*/
+label.error{
+    color: red;
+    font-weight: normal;
+}

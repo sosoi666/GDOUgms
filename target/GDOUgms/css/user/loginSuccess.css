@@ -1,0 +1,19 @@
+#header-li{
+    border-right: 1px solid rgba(0,0,0,0.3);
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.lSuccess-wrap{
+    /*width: 1200px;*/
+    /*height: 206px;*/
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.login-width{
+    width: 50%;
+}
+.row{
+    margin-bottom: 200px;
+}
